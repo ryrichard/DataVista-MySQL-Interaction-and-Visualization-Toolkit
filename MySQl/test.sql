@@ -1,0 +1,20 @@
+CREATE TABLE TEST
+(
+name varchar(100) NOT NULL,
+id INTEGER NOT NULL AUTO_INCREMENT,
+PRIMARY KEY (id)
+);
+
+INSERT INTO TEST (name)
+VALUE ('bob');
+INSERT INTO TEST (name)
+VALUE ('tom');
+INSERT INTO TEST (name)
+VALUE ('mike');
+INSERT INTO TEST (name)
+VALUE ('jack');
+INSERT INTO TEST (name)
+VALUE ('dick');
+
+
+SELECT * FROM TEST
